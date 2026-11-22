@@ -19,7 +19,7 @@ A console-based C++ simulation of Conway's Game of Life with dynamic memory, mir
 
 - For each individual block, its initial status is randomly set to `'X'` (containing cell) or `'-'` (blank).
 - In each generation, if the alive neighbors of a block is `< 2` or `>= 4`, the cell (if exists in that block) dies.
-- Else, if the alive neighbors is 3, then a new cell is born or the original cell sustains its life, depending on previous status.
+- Else, if the alive neighbors is `3`, then a new cell is born or the original cell sustains its life, depending on previous status.
 - Additionally, if a live cell lives to more than 10 generations, it dies.
 
 ## Compile and Run 
